@@ -27,6 +27,7 @@ For this project, I used **CustomTkinter** to improve the interface that I had p
 
 ![Screenshot 1](Assets/screenshot1.png)
 ![Screenshot 2](Assets/screenshot2.png) 
+
 *Simple and intuitive interface*  
 
 ---
