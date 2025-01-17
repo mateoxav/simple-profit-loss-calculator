@@ -207,13 +207,16 @@ class ConfigWindow:
         self.top.geometry("300x150")
         self.top.resizable(False, False)
         self.callback = callback
-        
+
         self.top.configure(fg_color="#0a0a0a")
         self.top.wm_iconbitmap()
         self.top.after(300, lambda: self.top.iconphoto(False, icon_image))
         
         self.top.transient(parent)
-        self.top.grab_set()
+        
+        self.top.wait_visibility()  
+        self.top.grab_set()       
+
         x = parent.winfo_x() + (parent.winfo_width() // 2) - (300 // 2)
         y = parent.winfo_y() + (parent.winfo_height() // 2) - (150 // 2)
         self.top.geometry(f"+{x}+{y}")
@@ -253,4 +256,3 @@ class ConfigWindow:
 def create_interface():
     app = TradingCalculator()
     app.run()
-
