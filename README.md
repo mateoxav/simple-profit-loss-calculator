@@ -1,4 +1,4 @@
-# 🚀 Simple Profit/Loss Calculator
+# 📈 Simple Profit/Loss Calculator 📉
 
 **Simple Profit/Loss Calculator** is a user-friendly and efficient tool designed for beginner traders and investors to calculate profits or losses for their trades. Whether you’re managing risk or planning a new trade, this tool helps you stay in control of your financial strategies with just a few clicks.
 
